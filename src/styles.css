@@ -1,0 +1,107 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Main Heading */
+h1 {
+  color: #ff6347;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Add Food Section */
+.add-food {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.add-food input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.add-food button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-food button:hover {
+  background-color: #e5533d;
+}
+
+/* Filter Dropdown */
+select {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+/* Food List Container */
+.food-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Food Item Card */
+.food-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.food-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Food Name */
+.food-card h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+/* Food Details */
+.food-card p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.delete-btn:hover {
+  background: #e60000;
+}
+
+
